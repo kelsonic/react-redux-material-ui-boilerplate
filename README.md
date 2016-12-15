@@ -1,6 +1,6 @@
-# Classifier Hub
+# Kelsonic React/Redux Boilerplate
 
-This is the main repository for <a href="https://classifier-hub.herokuapp.com">ClassifierHub.com</a>.
+This is my main react redux boilerplate.
 
 ## Quick start
 
