@@ -8,6 +8,6 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   header: {
     id: 'app.containers.Homepage.header',
-    defaultMessage: 'This is Homepage container !',
+    defaultMessage: 'This is Homepage container! (This is coming from Homepage/messages.js)',
   },
 });

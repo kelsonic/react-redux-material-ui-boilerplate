@@ -8,10 +8,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+// Components
+import AppBar from 'components/AppBar';
 
 export default function render() {
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <Helmet
         title="Homepage"
         meta={[
@@ -19,6 +21,12 @@ export default function render() {
         ]}
       />
       <FormattedMessage {...messages.header} />
+
+      <h1>AppBar</h1>
+      <AppBar
+        title="Title"
+        iconClassNameRight="muidocs-icon-navigation-expand-more"
+      />
     </div>
   );
 }
