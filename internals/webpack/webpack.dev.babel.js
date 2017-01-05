@@ -77,7 +77,7 @@ function dependencyHandlers() {
    * If DLLs aren't explicitly defined, we assume all production dependencies listed in package.json
    * Reminder: You need to exclude any server side dependencies by listing them in dllConfig.exclude
    *
-   * @see https://github.com/mxstbr/react-boilerplate/tree/master/docs/general/webpack.md
+   * @see https://github.com/kelsonic/react-redux-material-ui-boilerplate/tree/master/docs
    */
   if (!dllPlugin.dlls) {
     const manifestPath = path.resolve(dllPath, 'reactBoilerplateDeps.json');

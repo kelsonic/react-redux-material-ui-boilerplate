@@ -4,7 +4,7 @@
   "description": "A highly scalable, offline-first foundation with material-ui wrapper components",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mxstbr/react-boilerplate.git"
+    "url": "https://github.com/kelsonic/react-redux-material-ui-boilerplate.git"
   },
   "engines": {
     "npm": ">=3"
