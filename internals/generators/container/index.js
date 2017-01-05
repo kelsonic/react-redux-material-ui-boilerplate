@@ -54,6 +54,11 @@ module.exports = {
       abortOnFail: true,
     }, {
       type: 'add',
+      path: '../../app/containers/{{properCase name}}/view.js',
+      templateFile: './container/view.js.hbs',
+      abortOnFail: true,
+    }, {
+      type: 'add',
       path: '../../app/containers/{{properCase name}}/tests/index.test.js',
       templateFile: './container/test.js.hbs',
       abortOnFail: true,

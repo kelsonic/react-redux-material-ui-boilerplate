@@ -4,45 +4,16 @@
  *
  */
 
-import React, { {{{ component }}} } from 'react';
+import { {{{ component }}} } from 'react';
 import { connect } from 'react-redux';
-{{#if wantHeaders}}
-import Helmet from 'react-helmet';
-{{/if}}
+import view from './view';
 {{#if wantActionsAndReducer}}
 import select{{properCase name}} from './selectors';
 {{/if}}
-{{#if wantMessages}}
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
-{{/if}}
-{{#if wantCSS}}
-import styles from './styles.css';
-{{/if}}
 
-export class {{ properCase name }} extends {{{ component }}} { // eslint-disable-line react/prefer-stateless-function
-  render() {
-    return (
-      {{#if wantCSS}}
-      <div className={{curly true}}styles.{{ camelCase name }}{{curly}}>
-      {{else}}
-      <div>
-      {{/if}}
-      {{#if wantHeaders}}
-        <Helmet
-          title="{{properCase name}}"
-          meta={{curly true}}[
-            {{curly true}} name: 'description', content: 'Description of {{properCase name}}' {{curly}},
-          ]{{curly}}
-        />
-      {{/if}}
-      {{#if wantMessages}}
-        <FormattedMessage {...messages.header} />
-      {{/if}}
-      </div>
-    );
-  }
-}
+class {{ properCase name }} extends {{{ component }}} {}
+
+{{ properCase name }}.prototype.render = view;
 
 {{#if wantActionsAndReducer}}
 const mapStateToProps = select{{properCase name}}();
