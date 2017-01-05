@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.3.3",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "name": "react-redux-material-ui-boilerplate",
+  "version": "0.0.1",
+  "description": "A highly scalable, offline-first foundation with material-ui wrapper components",
   "repository": {
     "type": "git",
     "url": "git://github.com/mxstbr/react-boilerplate.git"
@@ -9,7 +9,7 @@
   "engines": {
     "npm": ">=3"
   },
-  "author": "Max Stoiber",
+  "author": "Kelson Adams",
   "license": "MIT",
   "scripts": {
     "analyze": "node ./internals/scripts/analyze.js",

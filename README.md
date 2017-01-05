@@ -1,6 +1,6 @@
-# Kelsonic React/Redux Boilerplate
+# React/Redux Boilerplate with Material-UI wrapper components
 
-This is my main react redux boilerplate.
+This is my main react redux boilerplate with pre-built [material-ui](http://material-ui.com) wrapper components.
 
 ## Quick start
 
@@ -23,4 +23,4 @@ Now you're ready to rumble!
 
 ## License
 
-[MIT License](LICENSE.md).
+[MIT License](LICENSE).
