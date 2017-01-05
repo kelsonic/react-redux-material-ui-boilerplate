@@ -8,9 +8,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+// Extra material-ui components (don't necessitate wrappers)
+import FileFolder from 'material-ui/svg-icons/file/folder';
 // Components
 import AppBar from 'components/AppBar';
 import AutoComplete from 'components/AutoComplete';
+import Avatar from 'components/Avatar';
 
 export default function render() {
   return (
@@ -33,6 +36,14 @@ export default function render() {
       <AutoComplete
         hintText="Type anything"
         dataSource={[]}
+      />
+
+      <h1>Avatar</h1>
+      <Avatar
+        icon={<FileFolder />}
+        color={'#999'}
+        backgroundColor={'#e9e9e9'}
+        size={30}
       />
     </div>
   );
