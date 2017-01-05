@@ -10,6 +10,7 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 // Components
 import AppBar from 'components/AppBar';
+import AutoComplete from 'components/AutoComplete';
 
 export default function render() {
   return (
@@ -26,6 +27,12 @@ export default function render() {
       <AppBar
         title="Title"
         iconClassNameRight="muidocs-icon-navigation-expand-more"
+      />
+
+      <h1>AutoComplete</h1>
+      <AutoComplete
+        hintText="Type anything"
+        dataSource={[]}
       />
     </div>
   );
