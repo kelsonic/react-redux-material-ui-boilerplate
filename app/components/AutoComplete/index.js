@@ -44,7 +44,7 @@ class AutoComplete extends PureComponent {
       horizontal: 'left',
     },
     animated: true,
-    animation: undefined,
+    animation: () => {},
     dataSource: undefined,
     dataSourceConfig: {
       text: 'text',
@@ -64,7 +64,7 @@ class AutoComplete extends PureComponent {
     menuCloseDelay: 300,
     menuProps: undefined,
     menuStyle: undefined,
-    onClose: undefined,
+    onClose: () => {},
     onNewRequest: () => {},
     onUpdateInput: () => {},
     open: false,
