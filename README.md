@@ -4,12 +4,9 @@ This is my main react redux boilerplate with pre-built [material-ui](http://mate
 
 ## Quick start
 
-1. Clone this repo using `git clone --depth=1 https://github.com/kelsonic/react-redux-material-ui-boilerplate.git`
+1. Clone this repo using `git clone https://github.com/kelsonic/react-redux-material-ui-boilerplate.git`
 2. Run either `npm install` or `yarn` (**We auto-detect `yarn` on your machine).
-
-Now you're ready to rumble!
-
-Start your development server by running `npm start`. Your server should be running on `localhost: 3000`.
+3. Start your development server by running `npm start`. Your server should be running on `localhost: 3000`.
 
 ## Documentation
 
