@@ -1,18 +1,5 @@
 # Command Line Commands
 
-## Initialization
-
-```Shell
-npm run setup
-```
-
-Initializes a new project with this boilerplate. Deletes the `react-boilerplate`
-git history, installs the dependencies and initializes a new repository.
-
-> Note: This command is self-destructive, once you've run it the init script is
-gone forever. This is for your own safety, so you can't delete your project's
-history irreversibly by accident.
-
 ## Development
 
 ```Shell
@@ -20,19 +7,6 @@ npm run start
 ```
 
 Starts the development server running on `http://localhost:3000`
-
-## Cleaning
-
-```Shell
-npm run clean
-```
-
-Deletes the example app, replacing it with the smallest amount of boilerplate
-code necessary to start writing your app!
-
-> Note: This command is self-destructive, once you've run it you cannot run it
-again. This is for your own safety, so you can't delete portions of your project
-irreversibly by accident.
 
 ## Generators
 
