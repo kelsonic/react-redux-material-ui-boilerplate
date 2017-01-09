@@ -10,10 +10,13 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 // Extra material-ui components (don't necessitate wrappers)
 import FileFolder from 'material-ui/svg-icons/file/folder';
-// Components
+// Material-UI wrapper components
 import AppBar from 'components/AppBar';
 import AutoComplete from 'components/AutoComplete';
 import Avatar from 'components/Avatar';
+// Other Components
+import A from 'components/A';
+import H1 from 'components/H1';
 
 export default function render() {
   return (
@@ -26,19 +29,19 @@ export default function render() {
       />
       <FormattedMessage {...messages.header} />
 
-      <h1>AppBar</h1>
+      <A href="http://material-ui.com/#/components/AppBar"><H1>AppBar</H1></A>
       <AppBar
         title="Title"
         iconClassNameRight="muidocs-icon-navigation-expand-more"
       />
 
-      <h1>AutoComplete</h1>
+      <A href="http://material-ui.com/#/components/AutoComplete"><H1>AutoComplete</H1></A>
       <AutoComplete
         hintText="Type anything"
         dataSource={[]}
       />
 
-      <h1>Avatar</h1>
+      <A href="http://material-ui.com/#/components/Avatar"><H1>Avatar</H1></A>
       <Avatar
         icon={<FileFolder />}
         color={'#999'}
