@@ -14,6 +14,7 @@ import FileFolder from 'material-ui/svg-icons/file/folder';
 import AppBar from 'components/AppBar';
 import AutoComplete from 'components/AutoComplete';
 import Avatar from 'components/Avatar';
+import Badge from 'components/Badge';
 // Other Components
 import A from 'components/A';
 import H1 from 'components/H1';
@@ -48,6 +49,14 @@ export default function render() {
         backgroundColor={'#e9e9e9'}
         size={30}
       />
+
+      <A href="http://material-ui.com/#/components/Badge"><H1>Badge</H1></A>
+      <Badge
+        badgeContent="&copy;"
+        badgeStyle={{ fontSize: 20 }}
+      >
+        Company Name
+      </Badge>
     </div>
   );
 }
