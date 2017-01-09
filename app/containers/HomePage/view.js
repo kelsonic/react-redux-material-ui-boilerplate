@@ -30,19 +30,19 @@ export default function render() {
       />
       <FormattedMessage {...messages.header} />
 
-      <A href="http://material-ui.com/#/components/AppBar"><H1>AppBar</H1></A>
+      <A href="http://material-ui.com"><H1>AppBar</H1></A>
       <AppBar
         title="Title"
         iconClassNameRight="muidocs-icon-navigation-expand-more"
       />
 
-      <A href="http://material-ui.com/#/components/AutoComplete"><H1>AutoComplete</H1></A>
+      <A href="http://material-ui.com"><H1>AutoComplete</H1></A>
       <AutoComplete
         hintText="Type anything"
         dataSource={[]}
       />
 
-      <A href="http://material-ui.com/#/components/Avatar"><H1>Avatar</H1></A>
+      <A href="http://material-ui.com"><H1>Avatar</H1></A>
       <Avatar
         icon={<FileFolder />}
         color={'#999'}
@@ -50,13 +50,15 @@ export default function render() {
         size={30}
       />
 
-      <A href="http://material-ui.com/#/components/Badge"><H1>Badge</H1></A>
+      <A href="http://material-ui.com"><H1>Badge</H1></A>
       <Badge
         badgeContent="&copy;"
         badgeStyle={{ fontSize: 20 }}
       >
         Company Name
       </Badge>
+
+      <A href="http://material-ui.com"><H1>BottomNavigation (TODO: example)</H1></A>
     </div>
   );
 }
