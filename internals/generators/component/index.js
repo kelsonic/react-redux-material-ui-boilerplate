@@ -27,7 +27,7 @@ module.exports = {
   }, {
     type: 'confirm',
     name: 'wantMessages',
-    default: true,
+    default: false,
     message: 'Do you want i18n messages (i.e. will this component use text)?',
   }],
   actions: (data) => {
